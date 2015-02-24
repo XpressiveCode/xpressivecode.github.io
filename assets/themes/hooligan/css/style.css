@@ -6,14 +6,30 @@
 /* Override some defaults */
 /* line 13, ../_sass/_base.scss */
 html, body {
+  /*background-color: #ededed;*/
+
   background-color: #2a2a2a;
   background: url(../images/bgs/body.png) repeat;
+
+}
+
+article.post{
+  margin-bottom: 25px;
+}
+
+h2.post-title small.date{
+  float: right;
+  color: #fff;
+  font-size: 14px;
 }
 
 /* line 18, ../_sass/_base.scss */
 body {
+  color: #606060;
+
   color: #bbb;
-  text-shadow: 1px 1px 1px #000;
+
+
   height: 100%;
   font-family: 'Oxygen', sans-serif;
   font-size: 14px;
@@ -299,7 +315,7 @@ div.content div#page-index {
 .zocial.rss:focus,
 .zocial.rss:hover {
   color:#fb9d3a !important;
-}  
+}
 
 /* Layout */
 /* line 2, ../_sass/_responsive.scss */
