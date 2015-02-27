@@ -13,6 +13,10 @@ html, body {
 
 }
 
+div.blog-index{
+  margin-top: 15px;
+}
+
 article.post{
   margin-bottom: 25px;
 }

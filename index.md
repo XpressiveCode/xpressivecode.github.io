@@ -7,7 +7,7 @@ tagline: one line at a time
 <div class="blog-index">
     {% for post in site.posts limit: 5 %}
         <article class="post">
-          <h2 class="post-title">
+          <h2 class="post-title well">
               <a href="{{ post.url }}" title="{{ post.title }}">
                   {{ post.title }}
               </a>
